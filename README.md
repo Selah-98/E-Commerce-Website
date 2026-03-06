@@ -15,6 +15,7 @@ The goal of the project was to demonstrate the basics of web development, includ
 * **C# (ASP.NET)**
 * **HTML**
 * **CSS**
+* **MySQL**
 
 ---
 
@@ -41,7 +42,7 @@ Download the project files or clone the repository to your computer.
 
 ### Step 4: Run the Website
 
-1. Click the **Start (▶) button** at the top of Visual Studio.
+1. Click the **run (▶) button** at the top of Visual Studio.
 2. Visual Studio will launch a browser window.
 3. The website will open locally and you can interact with it.
 
