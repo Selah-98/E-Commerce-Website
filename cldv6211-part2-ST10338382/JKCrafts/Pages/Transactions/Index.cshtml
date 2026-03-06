@@ -1,0 +1,41 @@
+﻿@page
+@model JKCrafts.Pages.Transactions.IndexModel
+@{
+}
+
+<h2>Transaction List</h2>
+<a class='btn btn-primary btn-sm' href='/Transactions/Create'>New Tranaction</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>TransactionID</th>
+            <th>Avalibablity</th>
+            <th>Quantity</th>
+            <th>ProductName</th>
+        
+            
+            
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.listcustomers)
+        {
+            <tr>
+                <td>@item.TransactionID</td>
+                <td>@item.Avalibablity</td>
+                <td>@item.ProductName</td>
+                <td>@item.Quantity</td>
+                
+                
+                
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Transaction/Edit?id=@item.TransactionID">Edit</a>
+                    <a class="btn btn-primary btn-sm" href="/Transaction/Delete?id=@item.TransactionID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+

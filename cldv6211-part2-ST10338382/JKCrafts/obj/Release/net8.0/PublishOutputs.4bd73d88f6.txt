@@ -1,0 +1,13 @@
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\JKCrafts.exe
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\JKCrafts.dll
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\JKCrafts.deps.json
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\JKCrafts.runtimeconfig.json
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\JKCrafts.pdb
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\System.Data.SqlClient.dll
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lab_services_student\source\repos\JKCrafts\JKCrafts\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

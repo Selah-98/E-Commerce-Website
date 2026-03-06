@@ -1,0 +1,83 @@
+﻿@page
+@model JK_CRAFTS.Pages.ContactInfoModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="contact-heading">Contact Details</h1>
+
+        <section>
+        <div class="contact-block">
+            <h2>Inquiries</h2>
+            <p>
+                For further details or inquiries, please contact us on:
+                <br>
+                Telephone No: <strong>012 945 0721</strong>
+                <br>
+                Email: <strong>JKhumaloEmporium99@gmail.com</strong>
+            </p>
+        </div>
+        </section>
+
+        <section>
+
+        <div class="contact-block">
+            <h2>Socials</h2>
+            <p>
+                Facebook: <strong>JKhumalo_EmpriumCrafts</strong>
+                <br>
+                Instagram: <strong>CraftsbyJK_77</strong>
+            </p>
+        </div>
+        </section>
+
+        <section>
+        <div class="contact-block">
+            <h2>Help and Support</h2>
+            <p>
+                For help and support, please contact us on:
+                <br>
+                Telephone number: <strong>012 945 0721</strong>
+                <br>
+                Support Number: <strong>087 311 8749</strong>
+                <br>
+                Email: <strong>Support@JKhumaloECrafts.com</strong>
+            </p>
+        </div>
+        </section>
+
+        <section>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="/submit_contact_form" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

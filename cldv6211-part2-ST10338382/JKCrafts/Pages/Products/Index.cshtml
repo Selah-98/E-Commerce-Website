@@ -1,0 +1,39 @@
+﻿@page
+@model JKCrafts.Pages.Products.IndexModel
+@{
+}
+
+<h2>New Production</h2>
+<a class='btn btn-primary btn-sm' href='/Products/Create'>New Product</a>
+
+
+
+<table border="table">
+    <thead>
+        <tr>
+            <th>ProductID</th>
+            <th>Name</th>
+            <th>Price</th>
+           
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ProductList)
+        {
+            <tr>
+                <td>@item.ProductID</td>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Cart/Cart?id=@item.ProductID">Add</a>
+                </td>
+                
+
+                
+            </tr>
+        }
+    </tbody>
+
+</table>

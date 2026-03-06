@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gG/2hAvIr00=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\OneDrive\\Documents\\GitHub\\cldv6211-part1-ST10338382\\JK CRAFTS\\JK CRAFTS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}

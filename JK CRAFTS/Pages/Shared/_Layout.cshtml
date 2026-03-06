@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - JK_CRAFTS</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/JK_CRAFTS.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <strong>
+                        <img src="~/images/img-20240330-wa0048-removebg-preview.png" alt="Craft Culture Logo" class="logo-img">
+                    </strong>
+                    Craft Culture
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                       
+                    </ul>
+                   
+                    
+                        <li class="nav-item">
+                            <a class="nav-link text-dark animate" asp-area="" asp-page="/Index">Home</a>
+                  
+                    </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark animate" asp-area="" asp-page="/JKhumaloWorkShop">Work Shop</a>
+                        </li>
+                   
+                        <li class="nav-item">
+                            <a class="nav-link text-black animate" asp-area="" asp-page="/AboutUs">About Us</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link text-black animate" asp-area="" asp-page="/ContactInfo">Contact</a>
+                        </li>
+                  
+                        <li class="nav-item">
+                            <a class="nav-link text-dark animate" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                    
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Contact Us Section -->
+                    <h5>Contact Us</h5>
+                    <p>Need help or have a question? Contact us using our <a href="/ContactInfo">contact-form</a>.</p>
+                    
+                </div>
+                <div class="col-md-4">
+                    <!-- Connect with Us Section -->
+                    <h5>Connect with Us</h5>
+                    <div>
+                        <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-snapchat"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    
+                    <!-- Company Info Section -->
+                    <h5>Company Info</h5>
+                    <ul>
+                        <li><a href="/AboutUs">About Us</a></li>
+                        <li><a href="/ContactInfo">Contact Info</a></li>
+                        <li><a href="/Privacy">Privacy</a></li>
+                    </ul>
+
+                    <div class="container">
+                        <main role="main" class="pb-3">
+                            @RenderBody()
+                        </main>
+                    </div>
+               
+    </footer>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

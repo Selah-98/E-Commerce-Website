@@ -1,0 +1,389 @@
+
+/* Adjust font size and alignment */
+html {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Media query for larger screens */
+@media (min-width: 400px) {
+    html {
+        font-size: 20px;
+        background-attachment: scroll;
+    }
+}
+
+/*This is for the index*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: gold; /* Change color to gold for white writing on black background */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.founder {
+    display: flex;
+    align-items:baseline;
+    margin-bottom: 30px;
+}
+
+    .founder h2 {
+        margin-right: 20px;
+    }
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+    .content img {
+        max-width: 300px;
+        margin-right: 20px;
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    }
+
+.mission {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.more-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .more-button:hover {
+        background-color: #ddd;
+    }
+
+/* Founder section styles */
+.founder {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+    .founder h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: floralwhite;
+    }
+
+    .founder .name {
+        font-size: 20px;
+        color: floralwhite;
+    }
+/* Add these styles to your existing styles.css file */
+.founder-image {
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Adjust size as needed */
+    border-radius: 50%; /* Make the image circular */
+    border: 2px hidden gold; /* Add border */
+}
+
+.founder-image-button {
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+/* Style the More about Us button */
+.more-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+    .more-button:hover {
+        background-color: #ffd700; /* Darker gold on hover */
+    }
+
+
+/* Contact Us styles */
+.contact-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-block:hover {
+    background-color: black;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-block h2 {
+    margin-top: 0;
+    color: goldenrod;
+}
+
+.contact-block p {
+    margin-bottom: 0;
+}
+
+.contact-form {
+    background-color: black;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.btn-primary {
+    background-color: black;
+    border-color: gold;
+}
+
+    .btn-primary:hover {
+        background-color: black;
+        border-color: gold;
+    }
+
+/* Workshop section styles */
+header {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.description-image {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.description-text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.item {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-image {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    transition: ease-in;
+}
+
+.item:hover .item-image {
+    transition: ease-in;
+}
+
+.item-details {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .item-details h2 {
+        margin-bottom: 5px;
+    }
+
+    .item-details p {
+        margin: 5px;
+    }
+
+.description:hover {
+    flex: 1;
+    padding: 30px; /* Add padding around the content */
+    transition: ease-in-out;
+    margin-bottom: 20px; /* Add space at the bottom */
+    background-color: black; /* Beige background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.reviews {
+    color: Gold;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* This is for the logo */
+.logo-img {
+    width: 85px;
+    height: auto;
+    margin-right: 10px;
+}
+/* This is for the Privacy Page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black; /* Light gray background */
+    color: gold; /* Dark text color */
+}
+
+header {
+    background-color: black; /* Blue header background */
+    color: white; /* White text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: Gold; /* Blue headings */
+}
+
+footer {
+    background-color: Black; /* Blue footer background */
+    color: white; /* White text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.circle-link {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+    .circle-link img {
+        width: 70px; /* Adjust size as needed */
+        height: 70px; /* Adjust size as needed */
+        border-radius: 50%; /* Make the image circular */
+    }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+}
+
+/* Layout footer */
+.footer {
+    background-color: Black;
+    padding: 50px 0;
+}
+
+    .footer h5 {
+        font-size: 20px;
+        color: Gold;
+        margin-bottom: 20px;
+    }
+
+    .footer p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    .footer ul {
+        list-style-type: none;
+    }
+    /*Background*/
+/* custom.css */
+
+body {
+    background-image: url('../images/black marble texture background pattern with high resolution_.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: Gold; /* Set text color to white for better contrast */
+}
+/*Navigation bar*/
+/* custom.css */
+
+/* Navigation Bar with Image Background */
+.navbar {
+    background-image: url('~/images/black-marble-texture-background-pattern.jpg');
+    background-size: cover;
+}
+
+/* Animated Buttons */
+.animate {
+    transition: transform 0.2s ease;
+}
+
+    .animate:hover {
+        transform: scale(1.1);
+    }
+
+    .animate:active {
+        transform: scale(0.9);
+    }
+

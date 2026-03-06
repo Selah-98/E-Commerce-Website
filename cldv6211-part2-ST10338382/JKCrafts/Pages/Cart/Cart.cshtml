@@ -1,0 +1,29 @@
+﻿@page
+@model JKCrafts.Pages.Cart.CartModel
+@{
+}
+<h2>Cart</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.listcustomers)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Products/Edit?id=@item.Name">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Cart/Delete?id=@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,41 @@
+﻿@page
+@model IndexModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="animate__animated animate__fadeInDown animate__infinite">Welcome To <span>CraftedCulture</span></h1>
+        </div>
+        <div class="founder">
+            <h2 class="animate__animated animate__fadeInLeft">Founder:</h2>
+            <!-- The founder image is a circular button -->
+            <a href="/about-founder" class="founder-image-button">
+                <img src="~/images/headshots.jpg" alt="Founder Image" class="founder-image">
+            </a>
+            <div class="name animate__animated animate__fadeInRight">James Khumalo</div>
+        </div>
+        <div class="content">
+            <div>
+                <p class="mission">Mission of Khumalo Emporium: Craft Culture Emporium endeavors to champion creativity and artisanal expertise,
+                    forging connections between skilled craftspeople and discerning enthusiasts of unique handmade goods. With a steadfast commitment to sustainability, we actively support local communities and meticulously curate premium artisanal products. Our unwavering dedication to fostering a culture of craftsmanship and community seeks to enrich lives and 
+                     instill a deep appreciation for the artistry imbued within each and every piece. </p>
+
+                     <<!-- Below is a more about button that doesnt lead to anywhere-->
+                <button class="more-button">More about Us</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

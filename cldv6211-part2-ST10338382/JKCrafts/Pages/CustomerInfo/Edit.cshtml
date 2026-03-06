@@ -1,0 +1,41 @@
+﻿@page
+@model JKCrafts.Pages.CustomerInfo.EditModel
+@{
+    ViewData["Title"] = "Edit Customer";
+}
+
+<h2>Edit Customer</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="customerInfos.name"></label>
+        <input asp-for="customerInfos.name" class="form-control" />
+        <span asp-validation-for="customerInfos.name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="customerInfos.email"></label>
+        <input asp-for="customerInfos.email" class="form-control" />
+        <span asp-validation-for="customerInfos.email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="customerInfos.phone"></label>
+        <input asp-for="customerInfos.phone" class="form-control" />
+        <span asp-validation-for="customerInfos.phone" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="customerInfos.address"></label>
+        <input asp-for="customerInfos.address" class="form-control" />
+        <span asp-validation-for="customerInfos.address" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="customerInfos.created_at"></label>
+        <input asp-for="customerInfos.created_at" class="form-control" />
+        <span asp-validation-for="customerInfos.created_at" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-page="/CustomerInfo/Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

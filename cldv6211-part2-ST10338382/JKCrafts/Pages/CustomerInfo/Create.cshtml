@@ -1,0 +1,53 @@
+﻿@page
+@model JKCrafts.Pages.CustomerInfo.CreateModel
+@{
+    ViewData["Title"] = "New User";
+}
+<h2>New User</h2>
+
+<form method="post">
+    <div class="row mb-3">
+        <label for="Name" class="col-sm-3 col-form-label">Customer Name</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" id="Name" asp-for="UserInfo.Name">
+            <span asp-validation-for="UserInfo.Name" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="Email" class="col-sm-3 col-form-label">Email</label>
+        <div class="col-sm-9">
+            <input type="email" class="form-control" id="Email" asp-for="UserInfo.Email">
+            <span asp-validation-for="UserInfo.Email" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="Phone" class="col-sm-3 col-form-label">Phone Number</label>
+        <div class="col-sm-9">
+            <input type="tel" class="form-control" id="Phone" asp-for="UserInfo.Phone">
+            <span asp-validation-for="UserInfo.Phone" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="Address" class="col-sm-3 col-form-label">Address</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" id="Address" asp-for="UserInfo.Address">
+            <span asp-validation-for="UserInfo.Address" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/CustomerInfo" role="button">Cancel</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

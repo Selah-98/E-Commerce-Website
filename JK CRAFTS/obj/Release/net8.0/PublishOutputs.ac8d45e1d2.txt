@@ -1,0 +1,7 @@
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Release\net8.0\PubTmp\Out\JK CRAFTS.exe
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Release\net8.0\PubTmp\Out\JK CRAFTS.dll
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Release\net8.0\PubTmp\Out\JK CRAFTS.deps.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Release\net8.0\PubTmp\Out\JK CRAFTS.runtimeconfig.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Release\net8.0\PubTmp\Out\JK CRAFTS.pdb

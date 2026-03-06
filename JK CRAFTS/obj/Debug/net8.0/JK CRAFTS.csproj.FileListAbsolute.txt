@@ -1,0 +1,65 @@
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\bin\Debug\net8.0\appsettings.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.staticwebassets.runtime.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.exe
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.deps.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.runtimeconfig.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.dll
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.pdb
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.AssemblyInfoInputs.cache
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.AssemblyInfo.cs
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.RazorAssemblyInfo.cache
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.RazorAssemblyInfo.cs
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\staticwebassets\msbuild.JK CRAFTS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\staticwebassets\msbuild.build.JK CRAFTS.props
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.JK CRAFTS.props
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.JK CRAFTS.props
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\scopedcss\bundle\JK CRAFTS.styles.css
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\scopedcss\projectbundle\JK CRAFTS.bundle.scp.css
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.dll
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\refint\JK CRAFTS.dll
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.pdb
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.genruntimeconfig.cache
+C:\Users\lab_services_student\source\repos\JK CRAFTS\JK CRAFTS\obj\Debug\net8.0\ref\JK CRAFTS.dll
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\bin\Debug\net8.0\appsettings.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.staticwebassets.runtime.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.staticwebassets.endpoints.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.exe
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.deps.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.runtimeconfig.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.dll
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\bin\Debug\net8.0\JK CRAFTS.pdb
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.AssemblyInfo.cs
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.RazorAssemblyInfo.cache
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.RazorAssemblyInfo.cs
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.sourcelink.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\scopedcss\bundle\JK CRAFTS.styles.css
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\scopedcss\projectbundle\JK CRAFTS.bundle.scp.css
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.dll
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\refint\JK CRAFTS.dll
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.pdb
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\JK CRAFTS.genruntimeconfig.cache
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\ref\JK CRAFTS.dll
+C:\Users\User\OneDrive\Documents\GitHub\cldv6211-part1-ST10338382\JK CRAFTS\obj\Debug\net8.0\swae.build.ex.cache

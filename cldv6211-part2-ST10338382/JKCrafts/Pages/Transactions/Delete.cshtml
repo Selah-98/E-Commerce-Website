@@ -1,0 +1,22 @@
+﻿@page
+@model JKCrafts.Pages.Transactions.DeleteModel
+@{
+    ViewData["Title"] = "Delete Transaction";
+}
+
+<h2>Delete Transaction</h2>
+
+<div>
+    <h4>Are you sure you want to delete this transaction?</h4>
+    <div>
+        <h5>TransactionID: @Model.Transaction.TransactionID</h5>
+        <h5>Availability: @Model.Transaction.Availability</h5>
+        <h5>Quantity: @Model.Transaction.Quantity</h5>
+        <h5>ProductName: @Model.Transaction.ProductName</h5>
+    </div>
+    <form method="post">
+        <input type="hidden" asp-for="Transaction.TransactionID" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-page="/Transactions/Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

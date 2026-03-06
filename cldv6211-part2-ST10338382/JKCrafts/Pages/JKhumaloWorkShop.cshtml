@@ -1,0 +1,174 @@
+﻿
+@page
+@model JKCrafts.Pages.JKhumaloWorkShopModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+    <header>
+        <h1>Welcome to My Store</h1>
+    </header>
+    <main>
+        <section class="description">
+            <img src="/images/img-20240330-wa0013.jpg" alt="KhumaloCraft Emporium" class="description-image">
+            <div class="description-text">
+                <h2>Discover the World's Artistic Tapestry</h2>
+                <p>Embark on a journey of cultural discovery with KhumaloCraft Emporium, where the artistry of diverse traditions converges to create a symphony of creativity and craftsmanship.</p>
+                <p>Our curated collection showcases an array of handcrafted products, each reflecting the unique heritage and flair of artisans from around the globe. From the intricate patterns of Chinese porcelain to the vibrant colors of Bangladeshi textiles, and the timeless elegance of Irish ceramics, every piece tells a story of cultural richness and artistic ingenuity.</p>
+                <p>Indulge in the beauty of handmade artistry as you explore our selection of pillows, baskets, cutlery, shoes, cups, plates, flowers, cases, benches, wardrobes, tables, and chairs. Each item is not just a product but a testament to the passion and dedication of artisans worldwide.</p>
+                <p>Step into our emporium and immerse yourself in a world where cultural boundaries dissolve, and artistry knows no limits. Your journey to discover the perfect piece awaits!</p>
+                <p>Enjoy shopping with us!</p>
+            </div>
+        </section>
+
+        <!-- Item 1 -->
+        <section class="item">
+            <img src="~/images/img-20240330-wa0010.jpg" alt="Item 1" class="item-image">
+            <div class="item-details">
+                <h2>Vase</h2>
+                <p class="price">$10.99</p>
+                <p class="description">Whimsy</p>
+                <p>Elevate your space with our 'Artisanal Whimsy Vases', beautifully crafted ceramic pieces that infuse personality and charm into any room</p>
+                <a class="btn" href="/Products?name=Vase">View Product</a>
+            </div>
+
+            <div class="reviews">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="rating">5.0</span>
+            </div>
+        </section>
+
+        <!-- Item 2 -->
+        <section class="item">
+            <img src="~/images/img-20240330-wa0001.jpg" alt="Item 2" class="item-image">
+            <div class="item-details">
+                <h2>Lamp</h2>
+                <p class="price">$15.99</p>
+                <p class="description">Radiant</p>
+                <p>Illuminate your space with our sleek and contemporary Modern Glow Lamp, seamlessly blending functionality with stylish design for an ambiance that exudes sophistication and charm</p>
+                <a class="btn" href="/Products?name=Lamp">View Product</a>
+            </div>
+
+            <div class="reviews">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating">4.5</span>
+            </div>
+        </section>
+
+        <!-- Item 3 -->
+        <section class="item">
+            <img src="~/images/img-20240330-wa0006.jpg" alt="Item 3" class="item-image">
+            <div class="item-details">
+                <h2>Jewellery</h2>
+                <p class="price">$19.99</p>
+                <p class="description">Gold Jade</p>
+                <p>Where the timeless elegance of gold meets the serene beauty of jade, offering you a truly exquisite and captivating adornment</p>
+                <a class="btn" href="/Products?name=Jewellery">View Product</a>
+            </div>
+
+            <div class="reviews">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="rating">3.0</span>
+            </div>
+        </section>
+
+        <!-- Item 4 -->
+        <section class="item">
+            <img src="~/images/img-20240330-wa0009.jpg" alt="Item 4" class="item-image">
+            <div class="item-details">
+                <h2>China</h2>
+                <p class="price">$24.99</p>
+                <p class="description">Blossom</p>
+                <p>Introducing 'Blossom,' a masterpiece of artistry and tradition, delicately crafted to add an aura of sophistication and cultural heritage to your living space</p>
+                <a class="btn" href="/Products?name=China">View Product</a>
+            </div>
+
+            <div class="reviews">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating">3.5</span>
+            </div>
+        </section>
+
+        <!-- Item 5 -->
+        <section class="item">
+            <img src="~/images/img-20240330-wa0020.jpg" alt="Item 5" class="item-image">
+            <div class="item-details">
+                <h2>Tea Pot</h2>
+                <p class="price">$29.99</p>
+                <p class="description">Mahogany</p>
+                <p>Experience the artistry and functionality of our "Royal Oak Tea Pourer," crafted from the finest wood, designed to enhance every pour with elegance and grace</p>
+                <a class="btn" href="/Products?name=TeaPot">View Product</a>
+            </div>
+
+            <div class="reviews">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span class="rating">4.0</span>
+            </div>
+        </section>
+
+        <!-- Item 6 -->
+        <section class="item">
+            <img src="~/images/img-20240330-wa0019.jpg" alt="Item 6" class="item-image">
+            <div class="item-details">
+                <h2>Grass Fan</h2>
+                <p class="price">$34.99</p>
+                <p class="description">Verdant Breeze</p>
+                <p>Immerse yourself in the gentle rustle of the verdant blades as they gracefully dance in the breeze, invoking a sense of tranquility and relaxation.</p>
+                <p>Whether adorning your living room, bedroom, or workspace, the "Verdant Breeze Elegance" grass fan adds a refreshing ambiance, infusing your surroundings with a breath of fresh air and natural allure.</p>
+                <a class="btn" href="/Products?name=GrassFan">View Product</a>
+            </div>
+
+            <div class="reviews">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating">3.5</span>
+            </div>
+        </section>
+
+        <!-- Item 7 -->
+        <section class="item">
+            <img src="~/images/img-20240330-wa0041.jpg" alt="Item 7" class="item-image">
+            <div class="item-details">
+                <h2>Rimmed Mirror</h2>
+                <p class="price">$39.99</p>
+                <p class="description">Regal Reflections</p>
+                <p>Where elegance meets functionality.</p>
+                <p>Elevate the ambiance
